@@ -1,0 +1,16 @@
+.category-card {
+  margin-bottom: 40px;
+}
+
+.category-title {
+  margin-left: 10px;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
